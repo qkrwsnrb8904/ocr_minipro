@@ -1,0 +1,125 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 가상환경
+venv/
+env/
+ENV/
+.venv/
+.env/
+.ENV/
+
+# 환경 변수 및 설정 파일
+.env
+*.env
+config.ini
+secrets.json
+
+# IDE 설정
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# 데이터 파일들 (용량이 큰 파일들)
+# 트레인/테스트 데이터
+data/
+dataset/
+datasets/
+train/
+test/
+validation/
+val/
+images/
+labels/
+annotations/
+
+# 특정 데이터 파일 형식
+*.csv
+*.json
+*.xml
+*.txt
+*.zip
+*.tar.gz
+*.rar
+
+# 이미지 파일들 (필요에 따라 조정)
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.tif
+*.webp
+
+# 모델 파일들 (용량이 큰 경우)
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.ckpt
+*.pb
+*.onnx
+weights/
+checkpoints/
+models/
+saved_models/
+
+# 로그 파일
+logs/
+*.log
+tensorboard/
+runs/
+
+# 임시 파일
+temp/
+tmp/
+*.tmp
+*.temp
+
+# 운영체제 파일
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 캐시 파일
+.cache/
+*.cache
+
+# 결과 파일들
+results/
+output/
+outputs/
+predictions/
